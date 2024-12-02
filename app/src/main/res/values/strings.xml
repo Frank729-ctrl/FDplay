@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="FDplay">FDplay</string>
+    <string name="calls">Calls</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="save">Save</string>
+    <string name="todo">TODO</string>
+    <string name="todi">TODO</string>
+    <string name="toda">TODO</string>
+    <string name="tode">TODO</string>
+    <string name="todp">TODO</string>
+    <string name="todk">TODO</string>
+    <string name="todn">TODO</string>
+
+    <string name="todm">TODO</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="contact_name">Contact Name</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- item_call_history.xml -->
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="88dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_default_profile" />
+
+        <!-- Contact Name -->
+        <TextView
+            android:id="@+id/textViewContactName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:text="Contact Name"
+            android:textSize="16sp" />
+
+        <!-- Call Icon (e.g., phone icon) -->
+        <ImageView
+            android:id="@+id/imageViewCallIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_call_icon" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
