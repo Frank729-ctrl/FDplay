@@ -1,4 +1,4 @@
-                                                         MyWebRTCApp
+                                MyWebRTCApp
 
 MyWebRTCApp is a real-time communication app that utilizes WebRTC (Web Real-Time Communication) for peer-to-peer video and audio streaming. The app allows users to connect and communicate via video calls, providing an interactive and efficient communication platform.
 
